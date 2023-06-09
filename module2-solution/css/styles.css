@@ -15,10 +15,13 @@ Tablet view should appear only if the width of the browser window is between 768
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   h1 {
-    margin-bottom: 15px;
-    background-color: aqua;
+   
+    background-color: #5F9EA0;
+   
   }
   
   p {
@@ -30,6 +33,39 @@ Tablet view should appear only if the width of the browser window is between 768
     margin-left: auto;
     font-family: Helvetica;
     color: white;
+  }
+  .container {
+    background-color: #00FFFF;
+    position: relative;
+    top: 25px;   
+     
+  }
+  .subtitle{
+
+        background-color: #A52A2A;
+        position: relative; 
+        float:right;
+        width: 120px;
+        height: 20px;
+       
+        text-align: center;
+      
+  }
+  .desc{
+        margin:25;
+        position: relative; 
+        float:left;
+        clear: right;
+        background-color: lightgrey;
+  }
+  #beef{
+    background-color: #A52A2A;
+  }
+  #sushi{
+    background-color: #FF7F50;
+  }
+  #chicken{
+    background-color: #DEB887;
   }
   
   /* Simple Responsive Framework. */
