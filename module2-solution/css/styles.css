@@ -18,6 +18,7 @@ Tablet view should appear only if the width of the browser window is between 768
   }
   h1 {
     margin-bottom: 15px;
+    background-color: aqua;
   }
   
   p {
