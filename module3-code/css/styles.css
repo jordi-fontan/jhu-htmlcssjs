@@ -1,0 +1,18 @@
+body {
+    font-size: 16;
+    color:#fff;
+    background-color: #61122f; /*same color as napkins' */
+    font-family:'Oxygen',sans-serif; /* from google fonts*/
+}
+#header-nav {
+    background-color: #f6b319;
+    border: 0;
+    border-radius: 0;
+
+}
+#logo-img{
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
